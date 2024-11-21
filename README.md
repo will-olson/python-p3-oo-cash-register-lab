@@ -48,13 +48,11 @@ We're going to create an Object-Oriented Cash Register that can:
 **This is a test-driven lab!** You will need to read the spec file and the test
 output very carefully to solve this one.
 
-Note that a **discount** is calculated as a percentage off of the total cash
-register price (e.g. a discount of 20 means the customer receives 20% off of
+Note that a **discount** is calculated as a percentage off of the total cash register price (e.g. a discount of 20 means the customer receives 20% off of
 their total price).
 
 **Hint #1:** Keep in mind that to access an attribute or call an instance method
-_inside_ another instance method, we use the `self` keyword to refer to the
-instance on which we are operating. For example:
+_inside_ another instance method, we use the `self` keyword to refer to the instance on which we are operating. For example:
 
 ```py
 class Person:
